@@ -23,6 +23,9 @@ public class MasterMind {
 	public MasterMind(String str) {
 		System.out.println(str);
 	}
+	public MasterMind(String str, int n) {
+		System.out.println(n);
+	}
 	private void generarCombinacion () {
 		int i;
 		for (i=0; i<combinacion.length; i++)
