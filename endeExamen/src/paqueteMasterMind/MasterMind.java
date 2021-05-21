@@ -20,7 +20,9 @@ public class MasterMind {
 		inicializarResultado ();
 //		numPartidas++;
 	}
-	
+	public MasterMind(String str) {
+		System.out.println(str);
+	}
 	private void generarCombinacion () {
 		int i;
 		for (i=0; i<combinacion.length; i++)
